@@ -1,17 +1,16 @@
 <script setup>
-
-
 const props = defineProps({
-  color: String,
+  color: {
+    type: String,
+    default: "#232323",
+  },
 });
-
 
 </script>
 
 <template>
-  <div class="card" :style="{ backgroundColor: color || 'blue' }">
-  </div>
-  <span>{{ color || "no color" }}</span>
+  <div class="card" :style="{ backgroundColor: color }"></div>
+  <span>{{ color }}</span>
 </template>
 
 <style scoped>

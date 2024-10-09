@@ -5,7 +5,7 @@ const model = defineModel();
 </script>
 
 <template>
-  <input type="color" input v-model="model" />
+  <input type="color" v-model="model" />
 </template>
 
 <style scoped>

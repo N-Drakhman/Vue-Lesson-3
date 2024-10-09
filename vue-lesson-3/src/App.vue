@@ -4,7 +4,7 @@ import Card from "./components/Card.vue";
 import ColorPicker from "./components/Color-picker.vue";
 
 
-const currentColor = ref("#323232");
+const currentColor = ref("#232323");
 
 defineProps({
   type: String,
